@@ -5,8 +5,9 @@ name:
 description:
   ja: "紫・シアン・ピンクのオーロラ配色を追加するテーマパック"
   en: "An aurora-inspired theme pack with violet, cyan, and pink accents"
-version: 1.0.0
+version: 1.0.1
 api_version: 1
+main: main.ts
 
 contributes:
   themes:

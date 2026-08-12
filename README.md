@@ -1,7 +1,8 @@
 # Katari Aurora Themes
 
-[Katari](https://github.com/tanitaka-tech/Katari) にオーロラをイメージしたテーマを追加する、宣言専用のエディタ拡張です。
-Worker や実行コードを含まず、`manifest.toon` だけで動作します。
+[Katari](https://github.com/tanitaka-tech/Katari) にオーロラをイメージしたテーマを追加するエディタ拡張です。
+テーマ本体は `manifest.toon` の静的宣言で、`main.ts` は旧 manifest パーサとの互換性のための
+no-op entry です。
 
 ## Themes
 
@@ -26,7 +27,7 @@ https://github.com/tanitaka-tech/katari-theme-aurora
 特定バージョンへ固定する場合:
 
 ```text
-git+https://github.com/tanitaka-tech/katari-theme-aurora.git#v1.0.0
+git+https://github.com/tanitaka-tech/katari-theme-aurora.git#v1.0.1
 ```
 
 ## Requirements
