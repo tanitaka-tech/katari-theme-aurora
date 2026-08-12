@@ -1,0 +1,45 @@
+id: tech.tanitaka.katari-theme-aurora
+name:
+  ja: "Katari Aurora Themes"
+  en: "Katari Aurora Themes"
+description:
+  ja: "紫・シアン・ピンクのオーロラ配色を追加するテーマパック"
+  en: "An aurora-inspired theme pack with violet, cyan, and pink accents"
+version: 1.0.0
+api_version: 1
+
+contributes:
+  themes:
+    - id: aurora-night
+      name:
+        ja: "Aurora Night"
+        en: "Aurora Night"
+      description:
+        ja: "深い夜空に紫とシアンが映えるダークテーマ"
+        en: "A dark theme with violet and cyan over a deep night sky"
+      mode: dark
+      order: 10
+      seeds:
+        base: "#101827"
+        accent: "#8b5cf6"
+        sub: "#22d3ee"
+        pop: "#f472b6"
+      overrides:
+        accent_2: "#60a5fa"
+
+    - id: aurora-dawn
+      name:
+        ja: "Aurora Dawn"
+        en: "Aurora Dawn"
+      description:
+        ja: "淡い朝空に紫と青緑を合わせたライトテーマ"
+        en: "A light theme pairing violet and teal with a pale morning sky"
+      mode: light
+      order: 20
+      seeds:
+        base: "#f4f7ff"
+        accent: "#6d28d9"
+        sub: "#0891b2"
+        pop: "#db2777"
+      overrides:
+        accent_2: "#0369a1"
